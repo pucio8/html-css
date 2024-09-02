@@ -1,3 +1,4 @@
+/* Good habit set box-sizing  */
 * {
     box-sizing: border-box;
 }
@@ -19,6 +20,7 @@ body {
     padding: 0 4px;
 }
 
+/* for desktop */
 .column {
     flex: 25%;
     max-width: 25%;
@@ -29,14 +31,14 @@ body {
     margin-top: 8px;
     vertical-align: middle;
 }
-
+/* for tablet */
 @media (max-width:800px) {
     .column {
         flex: 50%;
         max-width: 50%;
     }
 }
-
+/* for mobile */
 @media (max-width:600px) {
     .column {
         flex: 100%;
